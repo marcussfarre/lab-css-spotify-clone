@@ -11,12 +11,8 @@ body {
     margin: 0;
 }
 
-p {
-    font-size: 24px;
-}
-
 header {
-    padding: 0 25px;
+    padding: 10px 25px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -44,6 +40,8 @@ header .spotifyLogo {
     height: 60px;
 }
 
+/*LANDING IMAG*/
+
 .landingImage {
     background-image: url('../images/landing.jpg');
     background-repeat: no-repeat;
@@ -63,4 +61,80 @@ header .spotifyLogo {
 
 .landingImage .landingText h1 {
     font-size: 4em;
+}
+
+.landingText p {
+    font-size: 24px;
+}
+
+/*WHATS ON SPOTI*/
+
+.infoApp h2 {
+    text-decoration: underline;
+    text-align: center;
+}
+
+.infoApp .infoSections {
+    display: flex;
+    justify-content: space-around;
+}
+
+.infoApp .infoSections div {
+    padding: 50px;
+    display: grid;
+    place-items: center;
+}
+
+.infoApp .infoSections p {
+    font-size: 16px;
+    text-align: center;
+}
+
+.infoApp .infoSections h3 {
+    font-size: 20px;
+    text-align: center;
+    color: rgb(17, 238, 17);
+}
+
+.infoApp .infoSections img {
+    width: 100px;
+    height: 80px;
+}
+
+.adventages {
+    background-color: rgba(26,177,106,255);
+    padding: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.adventagesText {
+    max-width: 25%;
+}
+
+.adventagesText p{
+    color: #FFF;
+    font-size: 20px;
+}
+
+.adventages .logo {
+    height: 70px;
+    width: 70px;
+}
+
+.adventages .example {
+    height: 800px;
+    width: 400px;
+}
+
+.adventages h3 {
+    color: white;
+    text-decoration: underline;
+    font-size: 28px;
+    line-height: 20px;
+}
+
+h4 {
+    font-size: 24px;
+    color: white;
 }
